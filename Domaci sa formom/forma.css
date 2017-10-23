@@ -1,0 +1,47 @@
+body{
+	font-family: 'Muli', sans-serif;
+}
+h1{
+	text-align: center;
+}
+div{
+	background-color: #F08080;
+	padding: 50px;
+	width: 50%;
+	position: absolute;
+	top:20%;
+	right: 0;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+}
+
+input{
+	display: block;
+	padding: 10px;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+label{
+	display: block;
+	text-align: center;
+}
+p label{
+	display: inline;
+}
+input[type="radio"] {
+	display: inline;
+}
+p {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    }
+input[type="submit"]{
+	background-color: lightgrey;
+	font-family: 'Muli', sans-serif;
+	height: 70px;
+	width: 150px;
+}    

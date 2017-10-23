@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/">
+	<link rel="stylesheet" type="text/css" href="forma.css">
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+</head>
+<body>
+<h1>Kupovina</h1>
+<div>
+	<form>
+		<label for="ime">Ime i prezime:</label>
+		<input type="text" name="ime" placeholder="ime i prezime..." required>
+		<label for="adresa">Ulica i broj:</label>
+		<input type="text" name="adresa" placeholder="adresa..." required>
+		<label for="grad">Grad:</label>
+		<input type="text" name="grad" placeholder="grad..." required>
+		<label for="email">Vaša e-mail adresa:</label>
+		<input type="e-mail" name="mejl" placeholder="primer@mail.com">
+		<label for="telefon">Kontakt telefon:</label>
+		<input type="number" name="telefon"  required>
+		<p><label for="dostava">Način dostave:</label><br>
+		 <input type="radio" name="dostava" value="PE" checked><label>Post Express</label> <br>
+		<input type="radio" name="dostava" value="AKS"><label>AKS</label></p>
+		<input type="submit" name="dalje" value="Nastavi">
+	</form>	
+</div>
+</body>
+</html>
